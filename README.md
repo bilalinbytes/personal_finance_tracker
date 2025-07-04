@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# 💸 Personal Finance Visualizer
 
-## Project info
+A modern and responsive web application to track and visualize personal finances — built using **Next.js**, **TypeScript**, **shadcn/ui**, **Recharts**, and **MongoDB**.
 
-**URL**: https://lovable.dev/projects/50af95fb-dec8-4e07-88f1-90e15b8af8f6
+> ✅ Currently submitted at **Stage 1: Basic Transaction Tracking**
 
-## How can I edit this code?
+## 🔗 Live URL
 
-There are several ways of editing your application.
+[https://personal-finance-tracker97.vercel.app/](https://personal-finance-tracker97.vercel.app/)
 
-**Use Lovable**
+## 📦 Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/50af95fb-dec8-4e07-88f1-90e15b8af8f6) and start prompting.
+- ⚛️ **Next.js** (App Router)
+- 💬 **React** with **TypeScript**
+- 🎨 **shadcn/ui** for UI components
+- 📊 **Recharts** for data visualization
+- 🍃 **MongoDB** for backend storage
+- 🧪 Form validation and client-side error handling
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✅ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🧾 Stage 1: Basic Transaction Tracking  
+- Add, edit, and delete transactions
+- View transactions in a list with date, description, and amount
+- Monthly expenses visualized using a bar chart
+- Basic validation for transaction forms
+- Responsive design with user-friendly error states
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+### 🪜 Upcoming Stages (Planned)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+> 💡 The project is structured to grow progressively with future stages:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+#### Stage 2: Categories
+- Predefined categories for transactions (e.g., Food, Rent, Utilities)
+- Category-wise expense pie chart
+- Dashboard with:
+  - Total expenses
+  - Category-wise breakdown
+  - Most recent transactions
 
-# Step 3: Install the necessary dependencies.
-npm i
+#### Stage 3: Budgeting
+- Set monthly category budgets
+- Compare actual vs budgeted spending
+- Spending insights and over-budget warnings
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🖼️ Screenshots (Optional)
+
+_Add screenshots of the dashboard, transaction form, and charts if needed._
+
+---
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/bilalinbytes/personal_finance_tracker.git
+cd personal_finance_tracker
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/50af95fb-dec8-4e07-88f1-90e15b8af8f6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
